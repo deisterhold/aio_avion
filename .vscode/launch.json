@@ -5,10 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Module",
+            "name": "Run Avi-on Module",
             "type": "python",
             "request": "launch",
-            "module": "aio_avion"
+            "module": "aio_avion",
+            "cwd": "${workspaceFolder}/src"
         }
     ]
 }
